@@ -3,6 +3,6 @@ peon:
   description: A classic ping/pong Peon to check connectivity to remote devices.
   author: MorphStack
   tags: [healthcheck, monitoring, ping]
-  giturl: https://github.com/MorphStack/peon-ping
+  giturl: https://github.com/MorphStack/peon-ping-windows
   type: powershell
   entrypoint: peon.ps1
