@@ -5,4 +5,7 @@ peon:
   tags: [healthcheck, monitoring, ping]
   giturl: https://github.com/MorphStack/peon-ping-windows
   type: powershell
-  entrypoint: peon.ps1
+  entrypoint: ./ping.ps1
+  environment:
+    PING_DEVICE: ""
+    PING_COUNT: "4"
