@@ -1,11 +1,6 @@
 peon:
   version: 0.1.0
-  description: A classic ping/pong Peon to check connectivity to remote devices.
-  author: MorphStack
-  tags: [healthcheck, monitoring, ping]
-  giturl: https://github.com/MorphStack/peon-ping-windows
-  type: powershell
   entrypoint: ./ping.ps1
   environment:
-    PING_DEVICE: ""
+    PING_DEVICE: "localhost"
     PING_COUNT: "4"
