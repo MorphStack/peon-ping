@@ -1,6 +1,6 @@
 peon:
   version: 0.1.0
-  entrypoint: ./ping.ps1
+  entry: ./ping.ps1
   environment:
     PING_DEVICE: "localhost"
     PING_COUNT: "4"
